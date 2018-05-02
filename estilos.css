@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+
+body {
+  font-family: 'Space Mono', monospace;
+}
+
+.contenedor {
+  width: 80%;
+  margin: 0 auto;
+  padding: 5rem 0 0 0;
+  text-align: center;
+}
+
+.concepto {
+  text-align: justify;
+}
+
+.cuadrado {
+  display: block;
+  background: #009FE1;
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  padding: 15px 20px;
+  margin: 50px 20%;
+  transition: 2s ease;
+}
+
+.cuadrado:hover {
+  transform: translateX(40vw);
+}
+
+.columnas {
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin-bottom: 100px;
+}
+
+.card {
+  border: 1px solid rgba(0, 0, 0, .4);
+  border-radius: 15px;
+}
+
+.alinear-izq {
+  padding: 10%;
+  text-align: left;
+}
+
+label {
+  display: inline-block;
+  width: 40%;
+}
+
+input {
+ width: 25%;
+ display: inline-block;
+ margin: 10px 20px;
+}
+
+.boton {
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, .4);
+  box-shadow: 4px 4px rgba(0, 0, 0, .2);
+  transition: .2s ease-in;
+}
+
+.boton:hover {
+  cursor: pointer; 
+}
+
+.boton:active {
+  transform: scale(1.1);
+}
+
+.resultado {
+  display: inline-block;
+  margin-left: 20px;
+  width: 25%;
+  height: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, .4);
+}
+
+footer {
+  margin: 0;
+  padding: 0;
+}
